@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #F2FBFF;
+}
+.topic-replies-views a{
+   text-decoration: none;
+   color: #10162f !important;
+   font-size: .875rem;
+}
+
+.topic-replies-views{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    
+   
+}
+.cards{
+    margin-top: 1%;
+}
+
+.replies-views{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 1%;
+
+}
+.content{
+    max-width: 696px;
+    margin-left: 1%;
+}
+.content h1{
+    color: #2641b0;
+    font-size: 19px;
+    font-weight: 500;
+   
+}
+.content p{
+    color: #324593;
+    font-size: 13px;
+}
+.main-card , .other-card{
+    border: 1px solid rgb(35, 34, 34);
+    display: flex;
+    justify-content: space-between;
+  background-color: #ffffff;
+  margin-top: 6px;
+}
+.other-card h1{
+    color: rgb(35, 34, 34);
+    font-size: 19px;
+    
+
+}
+
+.profile-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pics img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.r-v-a-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 13px;
+    color: #324593;
+    margin-right: 1%;
+    
+}
+@media (max-width: 800px) {
+    .views{
+        display: none;
+    }
+    .content h1{
+        color: #2641b0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .content p{
+        color: #324593;
+        font-size: 9px;
+    }
+    .profile-pics img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    .topic-replies-views a{
+       
+        font-size: 10px;
+     }
+     
+.replies-views{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-right: 1%;
+
+}
+.r-v-a-count{
+ 
+    gap: 29px;
+    font-size: 9px;
+    color: #324593;
+    margin-right: 2%;
+    
+}
+.content{
+    max-width: 180px;
+    margin-left: 1%;
+}
+    
+}
